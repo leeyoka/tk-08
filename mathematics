@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-float sub(float a, float b);
+float add(float a, float b);
 
 int main() {
     float num1, num2, result;
@@ -10,13 +10,15 @@ int main() {
     printf("Enter the second number: ");
     scanf("%f", &num2);
 
-    result = sub(num1, num2);
+    result = add(num1, num2);
 
-    printf("The result of subtraction is: %.2f\n", result);
+    printf("The result of addition is: %.2f\n", result);
+
     return 0;
 }
 
-float sub(float a, float b) {
-    return a - b;
+float add(float a, float b) {
+    return a + b;
+
 }
 
