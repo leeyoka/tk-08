@@ -4,6 +4,7 @@ float add(float a, float b);
 
 int main() {
     float num1, num2, result;
+
     printf("Enter the first number: ");
     scanf("%f", &num1);
     printf("Enter the second number: ");
@@ -18,5 +19,6 @@ int main() {
 
 float add(float a, float b) {
     return a + b;
+
 }
 
